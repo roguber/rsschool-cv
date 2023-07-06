@@ -40,6 +40,6 @@ I am a marketer with eight years of experience. I am always looking for a way to
     - CSS (Code-basics)
 
 
-## Languages
+## English
 
-English - B1
+B1 - Pre-Intermediate 
