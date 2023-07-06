@@ -1,11 +1,12 @@
 # Rodion Guber
+---
 
 ## Contacts
 
-Tel: +7 925 804-30-21
-Email: gubarpk@gmail.com
-Location: Moscow, Russia
-Github: roguber
+* **Tel:** +7 925 804-30-21
+* **Email:** gubarpk@gmail.com
+* **Location:** Moscow, Russia
+* **Github:** roguber
 ---
 
 ## About myself
@@ -13,9 +14,10 @@ Github: roguber
 I am a marketer with eight years of experience. I am always looking for a way to complete a task efficiently and with as little effort as possible. The desire to solve problems led me to IT. Now I'm just starting my journey, but very effectively.
 ---
 
-## Skills
+## My skills
 
-* HTML5/CSS3
+* HTML5
+* CSS3
 * Git
 * Figma
 * Adobe Ps, Ai, Ae, Pr
@@ -41,12 +43,3 @@ I am a marketer with eight years of experience. I am always looking for a way to
 ## Languages
 
 English - B1
-
-
-
-
-
-## My skills
-* HTML5, CSS3
-* Adobe Photoshop, Illustrator, After Effects
-* Figma
