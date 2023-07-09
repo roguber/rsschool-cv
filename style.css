@@ -1,0 +1,260 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url(./assets/fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 20px 0 20px;
+}
+
+.footer-container {
+    justify-content: space-between;
+    padding-left: 130px;
+    padding-right: 130px;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin-left: auto;
+    margin-right: auto;
+    padding-inline-start: 0;
+
+}
+
+.nav-link {
+    padding: 10px 10px;
+    line-height: 10px;
+    text-decoration: none;
+    color: #3b3b3b;
+    transition: underline .3s;
+    cursor: pointer;
+
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    color: black;
+
+}
+
+.nav-item {
+    background-color: #d1d5d8;
+    padding: 10px;
+    margin: 0 10px 0 10px;
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    justify-content: space-between;
+    display: flex;
+
+
+}
+
+.header {
+    padding: 25px 0 25px 0;
+    justify-content: space-between;
+    display: flex;
+}
+
+body {
+    font-family: "Montserrat";
+    margin: auto;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #3b3b3b;
+
+}
+
+.photo {
+    background-color: #d1d5d8;
+    padding: 5px;
+    border-radius: 100%;
+
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+
+.section {
+    width: 50%;
+    border-bottom: solid 1px #d1d5d8;
+
+}
+
+.section-interests {
+    border-bottom: none;
+}
+
+.section-languages {
+    border-bottom: none;
+}
+
+.section-name {
+    width: 50%;
+
+    justify-content: space-around;
+
+    border-bottom: solid 10px #d1d5d8;
+    padding-bottom: 25px;
+}
+
+.section-photo {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 25px;
+    border-bottom: solid 10px #d1d5d8;
+}
+
+.main-container {
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.name {
+    font-size: 60px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+
+
+}
+
+.profession {
+    font-size: 30px;
+    margin-top: 0;
+    font-weight: 400;
+    letter-spacing: 0.75px;
+}
+
+.code {
+    font-size: medium;
+    font-family: Tahoma, sans-serif;
+
+}
+
+.footer {
+    background-color: #d1d5d8;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+
+.title {
+    font-weight: 400;
+}
+
+.bold-text {
+    font-weight: 600;
+}
+
+.rsschool {
+    cursor: pointer;
+    transition: 1s;
+}
+
+.rsschool:hover {
+
+    transform: scale(120%);
+}
+
+.footer-elements {
+
+    display: flex;
+    align-items: center;
+}
+
+.github-link {
+    margin: 0;
+    vertical-align: middle;
+
+}
+
+
+
+.list {
+    list-style: none;
+
+}
+
+.list-skills {
+    list-style: none;
+    margin-bottom: 0;
+}
+
+.li {
+    position: relative;
+    padding-left: 0px;
+}
+
+.li:before {
+    background-color: #d1d5d8;
+    width: 7px;
+    height: 7px;
+    content: "";
+    float: left;
+    margin: 6px 6px 0 0;
+    overflow: hidden;
+}
+
+.section-skills {
+    margin-bottom: 0;
+}
+
+.section-code {
+    margin-bottom: 0;
+}
+
+pre {
+    margin: 0;
+}
+
+.link-github {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.link-github:hover {
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    color: black;
+
+}
+
+
+@media (max-width: 768px) {
+    .section {
+        width: 100%;
+    }
+
+    .section-name-profession {
+        width: 100%;
+    }
+
+    .section-photo {
+        border-bottom: none;
+    }
+
+    .nav {
+        display: none;
+    }
+}
