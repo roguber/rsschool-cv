@@ -244,6 +244,7 @@ pre {
 @media (max-width: 768px) {
     .section {
         width: 100%;
+        margin: auto;
     }
 
     .section-name-profession {
@@ -256,10 +257,45 @@ pre {
 
     .nav {
         display: none;
-        
+
     }
+
     .main-container {
+        padding-left: 10px;
+        padding-right: 10px;
+        margin: auto;
+    }
+
+    .footer-container {
+        justify-content: space-between;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .name {
+        margin-top: 0px;
+        display: flex;
+        justify-content: space-around;
+        font-size: 40px;
+        padding-bottom: 0;
+        margin-bottom: 0;
         padding-left: 0;
-        padding-right: 0;
+    }
+
+    .profession {
+        display: flex;
+        justify-content: space-around;
+        font-size: 20px;
+        margin-top: 0;
+        font-weight: 400;
+        letter-spacing: 0px;
+    }
+
+    .section-name {
+        width: 100%;
+
+
+        border-bottom: solid 10px #d1d5d8;
+        padding-bottom: 10px;
     }
 }
