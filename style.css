@@ -256,5 +256,10 @@ pre {
 
     .nav {
         display: none;
+        
+    }
+    .main-container {
+        padding-left: 0;
+        padding-right: 0;
     }
 }
